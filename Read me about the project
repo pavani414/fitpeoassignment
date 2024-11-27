@@ -1,0 +1,26 @@
+Helper Document for the assignment project
+
+Installations used:Eclipse , chrome driver  
+Programming Language used:  Java
+
+Setup of the project:
+Create a new maven project with the name fitpeo.
+Maven: Using Maven for execution and dependency purpose.
+Dependencies used in pom.xml:
+Selenium: Using selenium  to Automating the Test Cases.
+WebDriver manager: Using WebDriver manager to navigate the chrome 
+ TestNG: Using TestNG for Assertions.
+ Code Explanation:
+In the project created a new package with the name testcase.
+In the package created a Class with the name as pro.
+
+Following are the list of actions performed on the page as per assignment
+1. Navigate to the FITPEO Homepage and maximize the window.
+2.From the homepage, navigating to the Revenue Calculator Page.
+3.By using the JavaScript Executor   Scroll down the page until the revenue calculator slider is visible.
+4.By finding out the XPATH of the slider adjusted it to the 823 because in the webpage I didn’t find exact x-axis value of the 820.
+5.By finding out the XPATH of the text field, Entered the value 560 in the text field.
+6.By using the soft assert, Validate the slider value.
+7.Scroll down By the JavaScript Executor   and select the checkboxes for CPT-99091, CPT-99453, CPT-99454, and CPT-99474 for the 823 
+8 & 9. By using the XPATH of the Total Recurring Reimbursement I validate the value of the Total Recurring Reimbursement for all Patients Per Month.
+
